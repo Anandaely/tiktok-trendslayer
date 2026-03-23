@@ -1,10 +1,7 @@
 ---
 name: tiktok-trend-slayer
-<<<<<<< HEAD
 description: TikTok 选品猎手 - 自动监控 TikTok Shop 商品榜与达人榜，利用 AI 挖掘高增长爆款，生成选品及达人撮合策略。当用户需要 TikTok 选品分析、爆款挖掘、达人匹配、趋势监控时使用此技能。需要用户自行配置 TIKTOK_SHOP_API_KEY 和 ECHOTIK_TOKEN 环境变量（凭证由用户持有，脚本不会收集或发送凭证到第三方）。
-=======
 description: TikTok 选品猎手 - 自动监控 TikTok Shop 商品榜与达人榜，利用 AI 挖掘高增长爆款，生成选品及达人撮合策略。当用户需要 TikTok 选品分析、爆款挖掘、达人匹配、趋势监控时使用此技能。（需要配置 TIKTOK_SHOP_API_KEY 和 ECHOTIK_TOKEN 环境变量）
->>>>>>> 9360bbad3cd940003c1f5d93be2bd15f14756e0e
 ---
 
 # TikTok 选品猎手
