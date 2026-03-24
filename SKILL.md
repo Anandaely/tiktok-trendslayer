@@ -11,40 +11,41 @@ Fetch TikTok influencer data via EchoTik API, filter high-engagement creators, a
 ## 核心功能概述 （Core Features Overview）
 
 1. **黑马发现算法｜Dark Horse Discovery Algorithm**
-调用 TikTok Affiliate API 和 EchoTik 接口获取商品/达人数据，实时监测 GMV 增长斜率。当某个商品在 24 小时内销量增速翻倍，且挂车达人数仍处于低位时，系统将自动触发“蓝海预警”。
+- 调用 TikTok Affiliate API 和 EchoTik 接口获取商品/达人数据，实时监测 GMV 增长斜率。当某个商品在 24 小时内销量增速翻倍，且挂车达人数仍处于低位时，系统将自动触发“蓝海预警”。
 
-Leverages TikTok Affiliate and EchoTik APIs to fetch real-time product and creator data, monitoring GMV growth gradients. When a product's sales growth doubles within 24 hours while the number of linked creators remains low, the system automatically triggers a "Blue Ocean Alert."
-2. **视频病毒基因拆解 | Viral Video Gene Dissection**
-识别 GMV 增速前 5% 商品及 24h 销量翻倍的黑马 SKU，AI 自动解析高转化视频的“黄金 3 秒”Hook、脚本结构与 BGM 情绪，为您提供 1:1 可复刻的爆款脚本公式。
+- Leverages TikTok Affiliate and EchoTik APIs to fetch real-time product and creator data, monitoring GMV growth gradients. When a product's sales growth doubles within 24 hours while the number of linked creators remains low, the system automatically triggers a "Blue Ocean Alert."
 
-Identifies the top 5% of products by GMV growth and "dark horse" SKUs with doubled sales. AI automatically analyzes the "Golden 3-Second" hooks, script structures, and BGM vibes of high-conversion videos, providing you with 1:1 replicable viral script formulas.
+2. **视频病毒基因拆解 ｜Viral Video Gene Dissection**
+- 识别 GMV 增速前 5% 商品及 24h 销量翻倍的黑马 SKU，AI 自动解析高转化视频的“黄金 3 秒”Hook、脚本结构与 BGM 情绪，为您提供 1:1 可复刻的爆款脚本公式。
+
+- Identifies the top 5% of products by GMV growth and "dark horse" SKUs with doubled sales. AI automatically analyzes the "Golden 3-Second" hooks, script structures, and BGM vibes of high-conversion videos, providing you with 1:1 replicable viral script formulas.
 
 3. **达人撮合雷达 | Creator Matchmaking Radar**
-基于商品画像自动筛选最具带货潜力的高转化 KOC，拒绝只看粉丝数，只看实战转化率，自动制定达人合作方案。
+- 基于商品画像自动筛选最具带货潜力的高转化 KOC，拒绝只看粉丝数，只看实战转化率，自动制定达人合作方案。
 
-Automatically filters KOCs with the highest sales potential based on product profiling. Moving beyond vanity metrics like follower counts, it focuses solely on actual conversion rates to generate automated creator collaboration plans.
+- Automatically filters KOCs with the highest sales potential based on product profiling. Moving beyond vanity metrics like follower counts, it focuses solely on actual conversion rates to generate automated creator collaboration plans.
 
 4. **自动选品报告 | Automated Product Selection Report**
-支持自动生成目标品类/商品、当前销量、预估利润、竞争程度及推荐话术等的完整报告。
+- 支持自动生成目标品类/商品、当前销量、预估利润、竞争程度及推荐话术等的完整报告。
 
-Supports the automatic generation of comprehensive reports covering target categories/products, current sales volume, estimated profit margins, competition levels, and recommended sales pitches.
+- Supports the automatic generation of comprehensive reports covering target categories/products, current sales volume, estimated profit margins, competition levels, and recommended sales pitches.
 
 ## 指令示例 (Sample Prompts)
 
 1. **全局搜索 | Global Search**
-@TikTok-Trend-Slayer 帮我找出过去 48 小时内在美国区 3C 类目下增长最快的 3 个黑马商品。
+- @TikTok-Trend-Slayer 帮我找出过去 48 小时内在美国区 3C 类目下增长最快的 3 个黑马商品。
 
-@TikTok-Trend-Slayer, find the top 3 "dark horse" products in the U.S. 3C category that have shown the fastest growth over the past 48 hours.
+- @TikTok-Trend-Slayer, find the top 3 "dark horse" products in the U.S. 3C category that have shown the fastest growth over the past 48 hours.
 
 2.**深度拆解 | Deep Dive / Breakdown**
-针对这款 [商品名]，分析其最近 5 个爆火视频的脚本结构，并给我 3 个适合拍摄的 Hook。
+- 针对这款 [商品名]，分析其最近 5 个爆火视频的脚本结构，并给我 3 个适合拍摄的 Hook。
 
-For this [Product Name], analyze the script structures of its 5 most recent viral videos and provide me with 3 filming-ready hooks.
+- For this [Product Name], analyze the script structures of its 5 most recent viral videos and provide me with 3 filming-ready hooks.
 
 3. **达人匹配 | Creator Matching**
-我想推一款磁吸充电宝，请列出 5 位近期带过同类产品且互动率超过 5% 的中小达人。
+- 我想推一款磁吸充电宝，请列出 5 位近期带过同类产品且互动率超过 5% 的中小达人。
 
-I want to promote a magnetic power bank. Please list 5 micro-influencers who have recently promoted similar products and maintain an engagement rate of over 5%.
+- I want to promote a magnetic power bank. Please list 5 micro-influencers who have recently promoted similar products and maintain an engagement rate of over 5%.
 
 
 ## 环境要求
